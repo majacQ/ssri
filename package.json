@@ -15,7 +15,7 @@
     "lint": "standard"
   },
   "tap": {
-    "check-coverage": "true"
+    "check-coverage": true
   },
   "repository": "https://github.com/npm/ssri",
   "keywords": [
@@ -39,15 +39,12 @@
   },
   "license": "ISC",
   "dependencies": {
-    "minipass": "^3.1.1"
+    "minipass": "^3.1.3"
   },
   "devDependencies": {
-    "standard": "^14.3.1",
+    "standard": "^14.3.4",
     "standard-version": "^7.1.0",
-    "tap": "^14.10.6"
-  },
-  "tap": {
-    "check-coverage": true
+    "tap": "^14.11.0"
   },
   "engines": {
     "node": ">= 8"
